@@ -16,4 +16,7 @@ class Deck:
         shuffle(self.cards)
         
         
-deck= Deck()
+
+
+    def hit(self):
+        return self.cards.pop()
