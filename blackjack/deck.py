@@ -7,8 +7,6 @@ class Deck:
         self.cards=[]
         for color in Card.possible_colors:
             for value in Card.possible_values:
-                print(color)
-                print(value)
                 self.cards.append(Card(color=color, value=value))
         
         
